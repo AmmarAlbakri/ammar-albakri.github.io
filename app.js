@@ -103,7 +103,7 @@ const renderPage = (content) => {
     <main>
       <section class="intro-section section-shell container" id="intro">
         <div class="row align-items-center gy-5 intro-row">
-          <div class="intro-copy col-lg-7">
+          <div class="intro-copy col-md-7">
             <p class="eyebrow"><span class="status-mark" aria-hidden="true"></span>${escapeHTML(content.profile.role)} <span class="eyebrow-divider" aria-hidden="true">/</span> ${escapeHTML(content.profile.location)}</p>
             <h1>${renderHeadline(content.profile.headline)}</h1>
             <p class="intro-highlight">${escapeHTML(content.profile.highlight)}</p>
@@ -113,7 +113,7 @@ const renderPage = (content) => {
             </ul>
             <a class="text-link" href="#experience">${escapeHTML(content.navigation.links[1].label)} <span aria-hidden="true">${escapeHTML(content.symbols.down)}</span></a>
           </div>
-          <div class="intro-side col-lg-5">
+          <div class="intro-side col-md-5">
             ${renderIntroGraphic(content.profile)}
             <div class="profile-highlights">
               ${content.profile.highlights.map((item, index) => `<div class="profile-stat"><span class="stat-index">0${index + 1}</span><strong>${escapeHTML(item.value)}</strong><span>${escapeHTML(item.label)}</span></div>`).join("")}
