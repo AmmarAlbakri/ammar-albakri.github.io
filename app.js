@@ -44,7 +44,7 @@ const renderProject = (project) => {
     : `<div class="project-art project-art--${escapeHTML(project.visualStyle)}" role="img" aria-label="${escapeHTML(project.imageAlt)}"><span class="art-grid" aria-hidden="true"></span><span class="art-node art-node-one" aria-hidden="true"></span><span class="art-node art-node-two" aria-hidden="true"></span><span class="art-line art-line-one" aria-hidden="true"></span><span class="art-line art-line-two" aria-hidden="true"></span></div>`;
 
   return `
-    <article class="project-card card h-100 col">
+    <article class="project-card card">
       <div class="project-visual">
         ${visual}
         <span class="project-number">${escapeHTML(project.number)}</span>
@@ -104,9 +104,8 @@ const renderPage = (content) => {
       <section class="intro-section section-shell container" id="intro">
         <div class="row align-items-center gy-5 intro-row">
           <div class="intro-copy col-md-7">
-            <p class="eyebrow"><span class="status-mark" aria-hidden="true"></span>${escapeHTML(content.profile.role)} <span class="eyebrow-divider" aria-hidden="true">/</span> ${escapeHTML(content.profile.location)}</p>
+            <p class="eyebrow"><span class="status-mark" aria-hidden="true"></span>${escapeHTML(content.profile.role)}</p>
             <h1>${renderHeadline(content.profile.headline)}</h1>
-            <p class="intro-highlight">${escapeHTML(content.profile.highlight)}</p>
             <p class="intro-description">${escapeHTML(content.profile.introduction)}</p>
             <ul class="tag-list focus-list">
               ${content.profile.focus.map((item) => `<li class="badge">${escapeHTML(item)}</li>`).join("")}
@@ -115,9 +114,6 @@ const renderPage = (content) => {
           </div>
           <div class="intro-side col-md-5">
             ${renderIntroGraphic(content.profile)}
-            <div class="profile-highlights">
-              ${content.profile.highlights.map((item, index) => `<div class="profile-stat"><span class="stat-index">0${index + 1}</span><strong>${escapeHTML(item.value)}</strong><span>${escapeHTML(item.label)}</span></div>`).join("")}
-            </div>
           </div>
         </div>
         <div class="section-index" aria-hidden="true">${String(1).padStart(2, "0")} <span></span> ${String(content.navigation.links.length).padStart(2, "0")}</div>
@@ -145,7 +141,7 @@ const renderPage = (content) => {
             </div>
             <p>${escapeHTML(content.projects.intro)}</p>
           </div>
-          <div class="project-grid row row-cols-1 row-cols-md-2 g-4">
+          <div class="project-grid">
             ${content.projects.items.map(renderProject).join("")}
           </div>
         </div>
@@ -158,8 +154,8 @@ const renderPage = (content) => {
             <h2>${escapeHTML(content.other.title)}<span class="accent-dot">.</span></h2>
           </div>
         </div>
-        <div class="other-grid row row-cols-1 row-cols-md-2 g-4">
-          <article class="info-card education-card card h-100 col">
+        <div class="other-grid">
+          <article class="info-card education-card card">
             <p class="card-index">${escapeHTML(content.other.education.number)} <span aria-hidden="true">/</span> ${escapeHTML(content.other.education.heading)}</p>
             <h3>${escapeHTML(content.other.education.degree)}</h3>
             <p class="info-subheading">${escapeHTML(content.other.education.institution)} <span aria-hidden="true">·</span> ${escapeHTML(content.other.education.location)}</p>
@@ -169,19 +165,19 @@ const renderPage = (content) => {
             </ul>
           </article>
 
-          <article class="info-card toolkit-card card h-100 col">
+          <article class="info-card toolkit-card card">
             <p class="card-index">${escapeHTML(content.other.skills.number)} <span aria-hidden="true">/</span> ${escapeHTML(content.other.skills.heading)}</p>
             ${content.other.skills.groups.map(renderGroup).join("")}
           </article>
 
-          <article class="info-card languages-card card h-100 col">
+          <article class="info-card languages-card card">
             <p class="card-index">${escapeHTML(content.other.languages.number)} <span aria-hidden="true">/</span> ${escapeHTML(content.other.languages.heading)}</p>
             <dl class="language-list">
               ${content.other.languages.items.map((item) => `<div><dt>${escapeHTML(item.name)}</dt><dd>${escapeHTML(item.level)}</dd></div>`).join("")}
             </dl>
           </article>
 
-          <article class="info-card recognition-card card h-100 col">
+          <article class="info-card recognition-card card">
             <p class="card-index">${escapeHTML(content.other.recognition.number)} <span aria-hidden="true">/</span> ${escapeHTML(content.other.recognition.heading)}</p>
             <ul class="recognition-list">
               ${content.other.recognition.items.map((item) => `

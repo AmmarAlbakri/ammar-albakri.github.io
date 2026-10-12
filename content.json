@@ -21,17 +21,10 @@
   },
   "profile": {
     "name": "Ammar Albakri",
-    "location": "Turkey",
     "role": "Robotics software engineer",
     "headline": ["Robotics software", "engineer."],
-    "highlight": "Autonomous systems. Practical software.",
     "introduction": "I build software for robots and engineering teams. My background spans autonomous mobile robots, ROS-based navigation, simulation, and business applications, backed by a foundation in computer architecture, algorithms, and programming languages.",
     "focus": ["Robotics & autonomy", "Software team leadership", "AI & machine learning"],
-    "highlights": [
-      { "value": "4–6", "label": "engineers led at Epik Robotik" },
-      { "value": "3.73 / 4.00", "label": "computer engineering GPA" },
-      { "value": "1st place", "label": "Teknofest industry competition" }
-    ],
     "image": null,
     "imageAlt": "Portrait of Ammar Albakri"
   },
