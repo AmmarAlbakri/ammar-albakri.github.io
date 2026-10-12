@@ -1,0 +1,252 @@
+{
+  "language": "en",
+  "meta": {
+    "title": "Ammar Albakri — Robotics Software Engineer",
+    "description": "Ammar Albakri is a robotics software engineer and software team leader focused on autonomous mobile robots, navigation, and engineering software.",
+    "themeColor": "#0b1118"
+  },
+  "navigation": {
+    "label": "Main navigation",
+    "links": [
+      { "label": "Introduction", "href": "#intro" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Other info", "href": "#other" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "contactLabel": "Get in touch"
+  },
+  "ui": {
+    "technologyListLabel": "Technologies and areas"
+  },
+  "profile": {
+    "name": "Ammar Albakri",
+    "location": "Turkey",
+    "role": "Robotics software engineer",
+    "headline": ["Robotics software", "engineer."],
+    "highlight": "Autonomous systems. Practical software.",
+    "introduction": "I build software for robots and engineering teams. My background spans autonomous mobile robots, ROS-based navigation, simulation, and business applications, backed by a foundation in computer architecture, algorithms, and programming languages.",
+    "focus": ["Robotics & autonomy", "Software team leadership", "AI & machine learning"],
+    "highlights": [
+      { "value": "4–6", "label": "engineers led at Epik Robotik" },
+      { "value": "3.73 / 4.00", "label": "computer engineering GPA" },
+      { "value": "1st place", "label": "Teknofest industry competition" }
+    ],
+    "image": null,
+    "imageAlt": "Portrait of Ammar Albakri"
+  },
+  "experience": {
+    "eyebrow": "Career history",
+    "title": "Work experience",
+    "intro": "From building robot capabilities to leading software delivery, I work across the full engineering lifecycle.",
+    "roles": [
+      {
+        "company": "Epik Robotik",
+        "location": "Gaziantep, Turkey",
+        "title": "Software Team Leader",
+        "period": "2023–2025",
+        "summary": "Led a software team of 4–6 engineers across mobile robotics, web applications, and desktop applications, while contributing directly to development and code reviews.",
+        "highlights": [
+          "Guided multiple projects from planning through delivery, with a focus on timelines, quality, and client expectations.",
+          "Introduced more efficient project-management practices to improve productivity and streamline workflows.",
+          "Mentored engineers, supported a collaborative team environment, and reported project progress to management."
+        ],
+        "technologies": ["Team leadership", "Project delivery", "Code review", "Mobile robotics", "Web applications"]
+      },
+      {
+        "company": "Epik Robotik",
+        "location": "Gaziantep, Turkey",
+        "title": "Robotics Software Engineer",
+        "period": "2022–2023",
+        "summary": "Developed software for robotic platforms, integrating sensors and implementing navigation capabilities across real robots and simulation.",
+        "highlights": [
+          "Built real-time robotics software and integrated ROS packages to connect software and hardware components.",
+          "Worked with SLAM, pathfinding, and magnetic line-following algorithms for autonomous navigation.",
+          "Used Gazebo for simulation-based testing and RViz for visualization, debugging, and analysis.",
+          "Contributed to electrical and mechanical design discussions to improve system performance."
+        ],
+        "technologies": ["ROS", "SLAM", "Pathfinding", "Gazebo", "RViz", "Sensor integration"]
+      },
+      {
+        "company": "Boyar Kimya",
+        "location": "Gaziantep, Turkey",
+        "title": "R&D Software Engineer",
+        "period": "2021–2022",
+        "summary": "Maintained and extended an ERP system, developing business modules and supporting its database, testing, and ongoing operation.",
+        "highlights": [
+          "Developed MRP (Material Resource Planning) and warehouse-tracking modules.",
+          "Analyzed requirements, proposed features, implemented UI improvements, and fixed software defects.",
+          "Performed unit and system testing, maintained the database, and conducted code reviews."
+        ],
+        "technologies": ["C#", "Microsoft SQL Server", "Windows Forms", "DevExpress", "Visual Studio"]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected engineering work",
+    "title": "Projects",
+    "intro": "Robotics projects spanning autonomous navigation, material handling, fleet operation, and enterprise software.",
+    "items": [
+      {
+        "number": "01",
+        "name": "Autonomous mobile robot (AMR)",
+        "category": "Mobile robotics · Fleet operation",
+        "visualStyle": "amr",
+        "image": null,
+        "imageAlt": "Illustration of an autonomous mobile robot",
+        "summary": "A load-bearing mobile robot designed to support warehouse and logistics operations.",
+        "facts": [
+          { "label": "Lifting capacity", "value": "1,000 kg" },
+          { "label": "Perception & safety", "value": "2D LiDAR, RGB-D cameras, IMU" }
+        ],
+        "highlights": [
+          "Operators can dispatch tasks and monitor progress through a web panel.",
+          "Supports fleet operation using traffic-management rules and a fleet-management system."
+        ]
+      },
+      {
+        "number": "02",
+        "name": "Automated guided vehicle (AGV)",
+        "category": "Mobile robotics · Line tracking",
+        "visualStyle": "agv",
+        "image": null,
+        "imageAlt": "Illustration of an automated guided vehicle",
+        "summary": "Epik Robotik’s first manufactured robot, demonstrating mobile maneuvering and lifting capabilities.",
+        "facts": [
+          { "label": "Navigation", "value": "Magnetic line tracking" },
+          { "label": "Positioning", "value": "QR-code reading" }
+        ],
+        "highlights": [
+          "Uses magnetic line tracking to follow its route.",
+          "Reads QR codes to determine position and plan its next movement."
+        ]
+      },
+      {
+        "number": "03",
+        "name": "Autonomous transpallet robot",
+        "category": "Material handling · Precision placement",
+        "visualStyle": "transpallet",
+        "image": null,
+        "imageAlt": "Illustration of an autonomous transpallet robot",
+        "summary": "An autonomous pallet-handling robot with accurate placement, pallet detection, and multi-sensor safety.",
+        "facts": [
+          { "label": "Pallet capacity", "value": "1,000 kg" },
+          { "label": "Lift height", "value": "Up to 2 m" },
+          { "label": "Placement accuracy", "value": "1 cm" }
+        ],
+        "highlights": [
+          "Uses QR alignment for accurate pallet placement.",
+          "Detects different pallet types and makes self-correcting maneuvers.",
+          "Provides 360-degree safety monitoring with LiDAR, 3D cameras, and ultrasonic sensors."
+        ]
+      },
+      {
+        "number": "04",
+        "name": "ERP system modules",
+        "category": "Business software · R&D",
+        "visualStyle": "erp",
+        "image": null,
+        "imageAlt": "Illustration of enterprise software modules",
+        "summary": "Business software development and maintenance, including resource-planning and warehouse operations.",
+        "facts": [
+          { "label": "Modules", "value": "MRP & warehouse tracking" },
+          { "label": "Technology", "value": "C#, MSSQL, Windows Forms" }
+        ],
+        "highlights": [
+          "Developed modules for material planning and warehouse tracking.",
+          "Contributed UI, database, testing, maintenance, and feature work."
+        ]
+      }
+    ]
+  },
+  "other": {
+    "eyebrow": "Background & toolkit",
+    "title": "Other information",
+    "education": {
+      "number": "01",
+      "heading": "Education",
+      "degree": "Bachelor of Computer Engineering",
+      "institution": "Harran University",
+      "location": "Şanlıurfa, Turkey",
+      "period": "2016–2021",
+      "details": [
+        "Graduated with a GPA of 3.73 / 4.00 and ranked first in the engineering faculty.",
+        "Completed two semesters of a double major in Electrical-Electronic Engineering."
+      ]
+    },
+    "skills": {
+      "number": "02",
+      "heading": "Technical toolkit",
+      "groups": [
+        {
+          "label": "Robotics & autonomy",
+          "items": ["ROS", "ROS 2", "Gazebo", "RViz", "SLAM", "Autonomous navigation", "Robot simulation"]
+        },
+        {
+          "label": "Software & web",
+          "items": ["C#", "HTML", "CSS", "JavaScript", "React", "Node.js", "REST APIs", "Responsive design"]
+        },
+        {
+          "label": "Data & desktop",
+          "items": ["Microsoft SQL Server", "Windows Forms", "DevExpress", "Visual Studio"]
+        },
+        {
+          "label": "Engineering foundations",
+          "items": ["Computer architecture", "Algorithms", "Programming languages", "AI & machine learning", "Sensor integration"]
+        }
+      ]
+    },
+    "languages": {
+      "number": "03",
+      "heading": "Languages",
+      "items": [
+        { "name": "Arabic", "level": "Native" },
+        { "name": "Turkish", "level": "Native" },
+        { "name": "English", "level": "Fluent" }
+      ]
+    },
+    "recognition": {
+      "number": "04",
+      "heading": "Awards & certifications",
+      "items": [
+        {
+          "title": "1st place — Teknofest Digital Technologies Competition in Industry",
+          "detail": "2021"
+        },
+        {
+          "title": "YDS English language test",
+          "detail": "86 / 100 · C1 · 2021"
+        },
+        {
+          "title": "IELTS",
+          "detail": "Overall 8.0 · 2022",
+          "scores": [
+            { "name": "Listening", "score": "8.5" },
+            { "name": "Reading", "score": "8.5" },
+            { "name": "Writing", "score": "7.0" },
+            { "name": "Speaking", "score": "8.5" }
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": ["Let’s build", "something useful."],
+    "intro": "For robotics, software, or engineering opportunities, get in touch.",
+    "email": "ammar.albakri.99@gmail.com",
+    "phone": "+90 534 311 97 30",
+    "phoneDisplay": "+90 534 311 97 30",
+    "location": "Turkey"
+  },
+  "footer": {
+    "label": "Ammar Albakri",
+    "note": "Robotics · Software · Engineering",
+    "backToTop": "Back to top"
+  },
+  "symbols": {
+    "externalLink": "↗",
+    "down": "↓",
+    "up": "↑"
+  }
+}
