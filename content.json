@@ -34,6 +34,18 @@
     "intro": "From building robot capabilities to leading software delivery, I work across the full engineering lifecycle.",
     "roles": [
       {
+        "company": "Odoo Middle East",
+        "location": "Dubai, UAE",
+        "title": "Technical Consultant",
+        "period": "May 2025–Present",
+        "summary": "Develop customer-specific ERP customizations with Python and the Odoo framework, while translating business requirements into practical solutions with minimal complexity.",
+        "highlights": [
+          "Analyze customer requirements and recommend clear, maintainable approaches to meet their business needs.",
+          "Develop and customize Odoo ERP functionality using Python and Odoo's framework."
+        ],
+        "technologies": ["Python", "Odoo", "ERP customization", "Requirements analysis", "Solution design"]
+      },
+      {
         "company": "Epik Robotik",
         "location": "Gaziantep, Turkey",
         "title": "Software Team Leader",
@@ -148,6 +160,23 @@
         "highlights": [
           "Developed modules for material planning and warehouse tracking.",
           "Contributed UI, database, testing, maintenance, and feature work."
+        ]
+      },
+      {
+        "number": "05",
+        "name": "Odoo ERP customization",
+        "category": "Enterprise software · ERP",
+        "visualStyle": "erp",
+        "image": null,
+        "imageAlt": "Illustration of Odoo ERP customization",
+        "summary": "Customer-specific Odoo ERP development that maps business requirements to practical, maintainable workflows.",
+        "facts": [
+          { "label": "Technology", "value": "Python & Odoo framework" },
+          { "label": "Focus", "value": "Requirements analysis & customization" }
+        ],
+        "highlights": [
+          "Analyze customer requirements and design solutions with minimal unnecessary complexity.",
+          "Develop tailored ERP customizations using Python and Odoo's framework."
         ]
       }
     ]
