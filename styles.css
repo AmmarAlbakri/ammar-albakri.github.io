@@ -868,6 +868,16 @@ h1 > .heading-accent,
   margin-left: 5px;
 }
 
+.contact-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.contact-socials a span {
+  color: var(--accent);
+}
+
 .site-footer {
   min-height: 74px;
   display: flex;

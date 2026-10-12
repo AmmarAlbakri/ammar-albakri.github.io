@@ -259,7 +259,11 @@
     "email": "ammar.albakri.99@gmail.com",
     "phone": "+90 534 311 97 30",
     "phoneDisplay": "+90 534 311 97 30",
-    "location": "Turkey"
+    "location": "Turkey",
+    "socialLinks": [
+      { "label": "GitHub", "url": "https://github.com/AmmarAlbakri" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ammar-albakri-92738117b/" }
+    ]
   },
   "footer": {
     "label": "Ammar Albakri",

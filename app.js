@@ -203,6 +203,9 @@ const renderPage = (content) => {
             <a class="contact-email" href="mailto:${escapeHTML(content.contact.email)}">${escapeHTML(content.contact.email)} <span aria-hidden="true">${escapeHTML(content.symbols.externalLink)}</span></a>
             <a href="tel:${escapeHTML(content.contact.phone.replace(/\s/g, ""))}">${escapeHTML(content.contact.phoneDisplay)}</a>
             <span>${escapeHTML(content.contact.location)}</span>
+            <nav class="contact-socials" aria-label="Social profiles">
+              ${content.contact.socialLinks.map((link) => `<a href="${escapeHTML(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(link.label)} <span aria-hidden="true">${escapeHTML(content.symbols.externalLink)}</span></a>`).join("")}
+            </nav>
           </div>
           </div>
         </div>
